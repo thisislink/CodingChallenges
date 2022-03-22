@@ -11,6 +11,7 @@ function removeUrlAnchor(url){
         urlToArray.splice(urlToArray.indexOf('#'));
       }         
     } 
+    
     //convert array back to string and return
     return urlToArray.join('');
-  }
+}
