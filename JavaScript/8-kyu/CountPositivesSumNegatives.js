@@ -3,7 +3,7 @@ function countPositivesSumNegatives(input) {
     let countPositives = 0;
     let sumNegatives = 0;
     
-    //base case of empty array
+    //edge case of empty array
     if(!input || input.length === 0) return [];
     
     //loop through array checking for negatives and positives

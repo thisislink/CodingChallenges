@@ -2,7 +2,7 @@ function removeUrlAnchor(url){
     //convert URL string to array 
     let urlToArray = url.split('');
     
-    //base case: if no # found return array as url string
+    //edge case: if no # found return array as url string
     if(!urlToArray.indexOf('#')) return urlToArray.join('');
     
     //loop thru array until find #

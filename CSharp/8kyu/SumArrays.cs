@@ -4,7 +4,7 @@ public class Kata
 {
   public static double SumArray(double[] array)
   {
-    //base case: array is empty return 0
+    //edge case: array is empty return 0
     if(Convert.ToInt32(array.Length) == 0) return 0;
     
     //add all numbers in array and store in result variable
